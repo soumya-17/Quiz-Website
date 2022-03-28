@@ -1,0 +1,2221 @@
+{
+    "Subcategories": [{
+            "Subcategory": "Data Structures And Algorithms",
+            "id": "cs1",
+            "Styles": [{
+                "Background": "linear-gradient(124deg, rgba(64,33,0,1) 0%, rgba(212,109,0,1) 100%)",
+                "topTextColor": "Bisque",
+                "progressBarColor": "#2f1909",
+                "optionTextColor": "BlanchedAlmond",
+                "optionBgColor": "#41230c"
+            }],
+            "Questions": [{
+                    "question": "A normal queue, if implemented using an array of size MAX_SIZE, gets full when?",
+                    "choice1": "Rear = MAX_SIZE – 1",
+                    "choice2": "Front = (rear + 1)mod MAX_SIZE",
+                    "choice3": "Front = rear + 1",
+                    "choice4": "Rear = front",
+                    "answer": 1
+                },
+                {
+                    "question": "What is the time complexity to insert a node based on key in a priority queue?",
+                    "choice1": "O(nlogn)",
+                    "choice2": "O(logn)",
+                    "choice3": "O(n)",
+                    "choice4": "O(n^2)",
+                    "answer": 3
+                },
+                {
+                    "question": " What is the number of moves required to solve Tower of Hanoi problem for k disks?",
+                    "choice1": "2k – 1",
+                    "choice2": "2k + 1",
+                    "choice3": "2^k + 1",
+                    "choice4": "2^k – 1",
+                    "answer": 4
+                },
+                {
+                    "question": "What is the result of the given postfix expression? [2,2,*,3,4,*,+]",
+                    "choice1": "16",
+                    "choice2": "12",
+                    "choice3": "14",
+                    "choice4": "10",
+                    "answer": 1
+                },
+                {
+                    "question": "A matrix contains m rows and n columns. The matrix is called Sparse Matrix if _____",
+                    "choice1": "Total number of Zero elements = m/n",
+                    "choice2": "Total number of Zero elements = m - n",
+                    "choice3": "Total number of Zero elements > (m*n)/2",
+                    "choice4": "Total number of Zero elements = m + n",
+                    "answer": 3
+                },
+                {
+                    "question": "What is a hash table?",
+                    "choice1": "A structure that maps values to keys",
+                    "choice2": "A structure that maps keys to values",
+                    "choice3": "A structure used for storage",
+                    "choice4": "A structure used to implement stack and queue",
+                    "answer": 2
+                },
+                {
+                    "question": "Which scheme uses a randomization approach?",
+                    "choice1": "Hashing by division",
+                    "choice2": "Hashing by multiplication",
+                    "choice3": "Universal hashing",
+                    "choice4": "Open addressing",
+                    "answer": 3
+                },
+                {
+                    "question": "Which of the following is false?",
+                    "choice1": "Compared to B-tree, B+ tree has larger fanout",
+                    "choice2": "Deletion in B-tree is more complicated than in B+ tree",
+                    "choice3": "B+ tree has greater depth than corresponding B-tree",
+                    "choice4": "Both B-tree and B+ tree have same search and insertion efficiencies",
+                    "answer": 3
+                },
+                {
+                    "question": "A connected planar graph having 6 vertices, 7 edges contains _____ regions.",
+                    "choice1": "15",
+                    "choice2": "3",
+                    "choice3": "1",
+                    "choice4": "11",
+                    "answer": 2
+                },
+                {
+                    "question": "Using what formula can a parent node be located in an array?",
+                    "choice1": "(i+1)/2",
+                    "choice2": "(i-1)/2",
+                    "choice3": "i/2",
+                    "choice4": "2i/2",
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "Subcategory": "Software Engineering",
+            "id": "cs2",
+            "Styles": [{
+                "Background": "linear-gradient(to top, #34e89e, #0f3443)",
+                "progressBarColor": "White",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "#0d535a"
+            }],
+            "Questions": [{
+                    "question": "Which of these is not true ?",
+                    "choice1": "Web has led to availability of software services and possibility of developing highly distributed service based systems",
+                    "choice2": "Web based systems have led to degradation of programming languages",
+                    "choice3": "Web brings concept of software as service",
+                    "choice4": "Web based system should be developed and delivered incrementally",
+                    "answer": 2
+                },
+                {
+                    "question": "Which perspective in system modelling shows the system or data architecture.",
+                    "choice1": "Structural perspective",
+                    "choice2": "Behavioral perspective",
+                    "choice3": "External perspective",
+                    "choice4": "All of the mentioned",
+                    "answer": 1
+                },
+                {
+                    "question": "____ is the process of translating a task into a series of commands that a computer will use to perform that task.",
+                    "choice1": "Project design",
+                    "choice2": "Installation",
+                    "choice3": "Systems analysis",
+                    "choice4": "Programming",
+                    "answer": 4
+                },
+                {
+                    "question": "Which of the following risks are derived from the software or hardware technologies that are used to develop the system?",
+                    "choice1": "Managerial risks",
+                    "choice2": "Technology risks",
+                    "choice3": "Estimation risks",
+                    "choice4": "Organizational risks",
+                    "answer": 2
+                },
+                {
+                    "question": "Which of the following is/are main parameters one should consider when computing the costs of software development projects?",
+                    "choice1": "Travel and training costs",
+                    "choice2": "Hardware and software costs",
+                    "choice3": "Effort costs (The costs of paying Software Engineers and Managers)",
+                    "choice4": "All of the mentioned",
+                    "answer": 4
+                },
+                {
+                    "question": "Systems that involve interaction with a shared database can be considered as.",
+                    "choice1": "Server-based",
+                    "choice2": "Client-based",
+                    "choice3": "Transaction-based",
+                    "choice4": "Software-based",
+                    "answer": 3
+                },
+                {
+                    "question": "Debugging is:",
+                    "choice1": "Finding and correcting errors in the program code",
+                    "choice2": "Creating the algorithm",
+                    "choice3": "Identifying the task to be computerized",
+                    "choice4": "Creating program code",
+                    "answer": 1
+                },
+                {
+                    "question": "What category of web-based system would you assign to electronic shopping?",
+                    "choice1": "Informational",
+                    "choice2": "Interactive",
+                    "choice3": "Transaction-oriented",
+                    "choice4": "Workflow-oriented",
+                    "answer": 3
+                },
+                {
+                    "question": "W3C stands for",
+                    "choice1": "World Wide Web Collaboration",
+                    "choice2": "World Wide Web Consortium",
+                    "choice3": "World Wide Web Community",
+                    "choice4": "None of the mentioned",
+                    "answer": 2
+                },
+                {
+                    "question": "Software evolution does not comprises:",
+                    "choice1": "Development activities",
+                    "choice2": "Maintenance activities",
+                    "choice3": "Negotiating with client",
+                    "choice4": "Re-engineering activities",
+                    "answer": 3
+                }
+            ]
+        },
+        {
+            "Subcategory": "Artificial Intelligence / IOT",
+            "id": "cs3",
+            "Styles": [{
+                "Background": "linear-gradient(124deg, rgba(2,17,48,1) 0%, rgba(20,47,105,1) 50%, rgba(23,62,145,1) 100%)",
+                "topTextColor": "Cornsilk",
+                "progressBarColor": "Cornsilk",
+                "optionTextColor": "Black",
+                "optionBgColor": "HoneyDew"
+            }],
+            "Questions": [{
+                    "question": "General algorithm applied on game tree for making decision of win/lose is ____",
+                    "choice1": "DFS/BFS Search Algorithms",
+                    "choice2": "Heuristic Search Algorithms",
+                    "choice3": "Greedy Search Algorithms",
+                    "choice4": "MIN/MAX Algorithms",
+                    "answer": 4
+                },
+                {
+                    "question": "What is a Cybernetics?",
+                    "choice1": "Study of communication between two machines",
+                    "choice2": "Study of communication between human and machine",
+                    "choice3": "Study of communication between humans and Extraterrestrial life(Aliens)",
+                    "choice4": "Study of Boolean values",
+                    "answer": 2
+                },
+                {
+                    "question": "An algorithm A is admissible if ___________",
+                    "choice1": "It is guaranteed to return an optimal solution when one exists",
+                    "choice2": "It is not guaranteed to return an optimal solution when one exists",
+                    "choice3": "It returns more solutions, but not an optimal one",
+                    "choice4": "It guarantees to return more optimal solutions",
+                    "answer": 1
+                },
+                {
+                    "question": "What is Hyponymy relation?",
+                    "choice1": "A is part of B",
+                    "choice2": "B has A as a part of itself",
+                    "choice3": "A is subordinate of B",
+                    "choice4": "A is superordinate of B",
+                    "answer": 3
+                },
+                {
+                    "question": "What is an auto-associative network?",
+                    "choice1": "A neural network that contains no loops",
+                    "choice2": "A neural network that contains feedback",
+                    "choice3": "A neural network that has only one loop",
+                    "choice4": "A single layer feed-forward neural network with pre-processing",
+                    "answer": 2
+                },
+                {
+                    "question": "In order to improve their competitiveness and services assurance, the ________ require independently funded IoT projects.",
+                    "choice1": "eGovermnent related",
+                    "choice2": "Enterprise-based",
+                    "choice3": "Company based",
+                    "choice4": "Business oriented platform",
+                    "answer": 2
+                },
+                {
+                    "question": "Which is the software or a programming language used for controlling of Arduino?",
+                    "choice1": "Assembly Language",
+                    "choice2": "C Languages",
+                    "choice3": "JAVA",
+                    "choice4": "Any Language",
+                    "answer": 4
+                },
+                {
+                    "question": "_______ are pre built circuit boards that fit on top of Android.",
+                    "choice1": "Sensor",
+                    "choice2": "Breadboard",
+                    "choice3": "Sheilds",
+                    "choice4": "Data types",
+                    "answer": 3
+                },
+                {
+                    "question": "What is the popular method of organizing wireless network topologies?",
+                    "choice1": "Cluster",
+                    "choice2": "Synchronization",
+                    "choice3": "Network",
+                    "choice4": "Software",
+                    "answer": 1
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Critical Thinking",
+            "id": "mm1",
+            "Styles": [{
+                "Background": "https://blog.playstation.com/tachyon/2017/08/System_Featured.jpg",
+                "progressBarColor": "white",
+                "topTextColor": "red",
+                "optionTextColor": "black",
+                "optionBgColor": "White"
+            }],
+            "Questions": [{
+                    "question": "The average of first 50 natural numbers is …………. .",
+                    "choice1": "25.30",
+                    "choice2": "25.5",
+                    "choice3": "25.00",
+                    "choice4": "12.25",
+                    "answer": 2
+                },
+                {
+                    "question": "Evaluation of 83 × 82 × 8^(-5) is ………….",
+                    "choice1": "1",
+                    "choice2": "0",
+                    "choice3": "8",
+                    "choice4": "NONE OF THESE",
+                    "answer": 2
+                },
+                {
+                    "question": "There are 100 closed lockers in a hallway. A man begins by opening all 100 lockers. Next, he closes every second locker. Then, on his third pass, he toggles every third locker (closes it if it is open or opens it if it is closed). This process continues for 100 passes, such that on each pass i, the man toggles every ith locker. After his 100th pass in the hallway, in which he toggles only locker #100, how many lockers are open?.",
+                    "choice1": "7",
+                    "choice2": "10",
+                    "choice3": "9",
+                    "choice4": "11",
+                    "answer": 3
+                },
+                {
+                    "question": "You brought 88 identical items for $ (x)4853(y). The correct values of x and y are:",
+                    "choice1": "4,6",
+                    "choice2": "8,2",
+                    "choice3": "2,9",
+                    "choice4": "7,3",
+                    "answer": 1
+                },
+                {
+                    "question": "Your parents have six sons including you and each son has one sister. How many people are in the family?",
+                    "choice1": "14",
+                    "choice2": "2",
+                    "choice3": "9",
+                    "choice4": "7",
+                    "answer": 4
+                },
+                {
+                    "question": "Shashi is looking at Anni. Anni is looking at Charles. Shashi is married and Charles is not married. Is a married person looking at an unmarried person?",
+                    "choice1": "YES",
+                    "choice2": "NO",
+                    "choice3": "MAYBE",
+                    "choice4": "DATA INSUFFICIENT",
+                    "answer": 1
+                },
+                {
+                    "question": "A man went inside a store and steals $100 from the cash register. From the same $100, he buys a toy of $70 from the same store. How much money does the shopkeeper lost in total?",
+                    "choice1": "$70",
+                    "choice2": "$100",
+                    "choice3": "$170",
+                    "choice4": "$130",
+                    "answer": 2
+                },
+                {
+                    "question": "Imagine you are standing at the bottom of a 30-foot wall. You start climbing, and each hour you climb three feet but slide down two feet. Assuming you keep this pattern of climbing, how long will it take you to climb to the top of the wall?",
+                    "choice1": "28 hrs",
+                    "choice2": "30 hrs",
+                    "choice3": "27 hrs",
+                    "choice4": "29 hrs",
+                    "answer": 2
+                },
+                {
+                    "question": "Three ants are sitting at the three corners of an equilateral triangle. Each ant starts randomly picks a direction and starts to move along the edge of the triangle. What is the probability that none of the ants collide?",
+                    "choice1": "0.37",
+                    "choice2": "0.25",
+                    "choice3": "0.50",
+                    "choice4": "DATA INSUFFICIENT",
+                    "answer": 2
+                },
+                {
+                    "question": "A Russian gangster kidnaps you. He puts two bullets in consecutive order in an empty six-round revolver, spins it, points it at your head and shoots. *click* You’re still alive. He then asks you, “do you want me to spin it again and fire or pull the trigger again right away?”  What is the probability that you’ll be shot without spinning?",
+                    "choice1": "66%",
+                    "choice2": "33%",
+                    "choice3": "75%",
+                    "choice4": "25%",
+                    "answer": 4
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Maths Storming",
+            "id": "mm2",
+            "Styles": [{
+                "Background": "https://blog.playstation.com/tachyon/2017/08/System_Featured.jpg",
+                "progressBarColor": "white",
+                "topTextColor": "red",
+                "optionTextColor": "black",
+                "optionBgColor": "White"
+            }],
+            "Questions": [{
+                    "question": "The product of 3 integers x,y,z is 192. z-4 and p is equal to the average of x and y. What is the minimum possible value of p",
+                    "choice1": "7",
+                    "choice2": "-24.5",
+                    "choice3": "-7",
+                    "choice4": "8",
+                    "answer": 2
+                },
+                {
+                    "question": "If x, y, and z are positive integers and 3x=4y=5z, what is the least possible value of x+y+z?",
+                    "choice1": "47",
+                    "choice2": "44",
+                    "choice3": "48",
+                    "choice4": "50",
+                    "answer": 1
+                },
+                {
+                    "question": "Two years ago, I was three times as old as you. But in 14 years I will be only twice as old as you. What were their ages?",
+                    "choice1": "50,16",
+                    "choice2": "50,18",
+                    "choice3": "48,16",
+                    "choice4": "48,18",
+                    "answer": 2
+                },
+                {
+                    "question": "Fathers age is reverse of the son's age. Their sum of ages is 55. What is father's age?",
+                    "choice1": "50",
+                    "choice2": "14",
+                    "choice3": "32",
+                    "choice4": "41",
+                    "answer": 4
+                },
+                {
+                    "question": "8/2(2+2)",
+                    "choice1": "1",
+                    "choice2": "2",
+                    "choice3": "16",
+                    "choice4": "4",
+                    "answer": 3
+                },
+                {
+                    "question": "60/5(7-5)",
+                    "choice1": "1",
+                    "choice2": "6",
+                    "choice3": "60",
+                    "choice4": "24",
+                    "answer": 4
+                },
+                {
+                    "question": "There are 73 red, blue and green marbles in the jar. Number of red marbles is twice of blue marbles. Number of blue marbles is 19 more than green marbles. How many green marbles are there?",
+                    "choice1": "23",
+                    "choice2": "19",
+                    "choice3": "38",
+                    "choice4": "4",
+                    "answer": 4
+                },
+                {
+                    "question": "How many 4 digits passcode are possible, if you cannot have the digit 1 followed by 3?",
+                    "choice1": "9701",
+                    "choice2": "6732",
+                    "choice3": "6733",
+                    "choice4": "9700",
+                    "answer": 1
+                },
+                {
+                    "question": "The average age of a family is 20. If we exclude one parent, who is 40, the average age drops to 15. How many children are in the family?",
+                    "choice1": "1",
+                    "choice2": "2",
+                    "choice3": "3",
+                    "choice4": "4",
+                    "answer": 3
+                },
+                {
+                    "question": "7 + 7 / 7 + 7 x 7 - 7 = ?",
+                    "choice1": "0",
+                    "choice2": "50",
+                    "choice3": "49",
+                    "choice4": "25",
+                    "answer": 2
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Security Protocols",
+            "id": "cyber1",
+            "Styles": [{
+                "Background": "https://wallpaperaccess.com/full/2320099.jpg",
+                "progressBarColor": "white",
+                "topTextColor": "red",
+                "optionTextColor": "black",
+                "optionBgColor": "White"
+            }],
+            "Questions": [{
+                    "question": "_______ ensures the integrity and security of data that are passing over a network.",
+                    "choice1": "Firewall",
+                    "choice2": "Antivirus",
+                    "choice3": "Pentesting Tools",
+                    "choice4": "Network security Protocols",
+                    "answer": 4
+                },
+                {
+                    "question": "Which of the following is not a strong security protocol?",
+                    "choice1": "HTTPS",
+                    "choice2": "SMTP",
+                    "choice3": "STP",
+                    "choice4": "SFTP",
+                    "answer": 2
+                },
+                {
+                    "question": "Which of the following is not a secured mail transferring methodology",
+                    "choice1": "POP3",
+                    "choice2": "SSMTP",
+                    "choice3": "Mail using PGP",
+                    "choice4": "S/MIME",
+                    "answer": 1
+                },
+                {
+                    "question": "TSL (Transport Layer Security) is a cryptographic protocol used for securing HTTP/HTTPS based connection.",
+                    "choice1": "TRUE",
+                    "choice2": "FALSE",
+                    "choice3": "CANNOT BE SAID",
+                    "choice4": "N.A",
+                    "answer": 1
+                },
+                {
+                    "question": "SSL primarily focuses on _______",
+                    "choice1": "Integrity and Authenticity ",
+                    "choice2": "Integrity and Non-Repudiation",
+                    "choice3": "Authenticiy and Privacy",
+                    "choice4": "Confidentiality and Integrity",
+                    "answer": 1
+                },
+                {
+                    "question": "__________ is used for encrypting data at network level.",
+                    "choice1": "HTTPS",
+                    "choice2": "IPSec",
+                    "choice3": "SMTP",
+                    "choice4": "S/MIME",
+                    "answer": 2
+                },
+                {
+                    "question": "Why did SSL certificate require in HTTP?",
+                    "choice1": "To make security weak",
+                    "choice2": "Make information move faster",
+                    "choice3": "For encrypted data sent over internet",
+                    "choice4": "For sending and recieving emails unencrypted",
+                    "answer": 3
+                },
+                {
+                    "question": "PCT is abbreviated as ________",
+                    "choice1": "Private Connecting Technology",
+                    "choice2": "Personal Communication Technology",
+                    "choice3": "Private Communication Technique",
+                    "choice4": "Private Communication Technology",
+                    "answer": 4
+                },
+                {
+                    "question": "SRTP is abbreviated as ________",
+                    "choice1": "Secure Relay Transfer Protocol",
+                    "choice2": "Secure real-time transferring Protocols",
+                    "choice3": "Secure Real-time Transport Protocol",
+                    "choice4": "Secure Real-time Transportation Protocol",
+                    "answer": 3
+                },
+                {
+                    "question": "________ is the entity for issuing digital certificates.",
+                    "choice1": "Certificate Authority",
+                    "choice2": "Cert Authority",
+                    "choice3": "Cert Authorization",
+                    "choice4": "Certification Authorization",
+                    "answer": 1
+                }
+            ]
+        },
+        {
+            "Subcategory": "Ports and Its Types",
+            "id": "cyber2",
+            "Styles": [{
+                "Background": "https://wallpaperaccess.com/full/2320099.jpg",
+                "progressBarColor": "white",
+                "topTextColor": "red",
+                "optionTextColor": "black",
+                "optionBgColor": "White"
+            }],
+            "Questions": [{
+                    "question": "There are ______ major types of ports in computers.",
+                    "choice1": "1",
+                    "choice2": "2",
+                    "choice3": "3",
+                    "choice4": "4",
+                    "answer": 2
+                },
+                {
+                    "question": "Physical ports are usually referred to as ___________",
+                    "choice1": "Jacks",
+                    "choice2": "Cables",
+                    "choice3": "Interfaces",
+                    "choice4": "Hardware Plugs",
+                    "answer": 3
+                },
+                {
+                    "question": " ____________ are logical numbers assigned for logical connections.",
+                    "choice1": "Logical ports",
+                    "choice2": "Physical Ports",
+                    "choice3": "Networking cables",
+                    "choice4": "IP address",
+                    "answer": 1
+                },
+                {
+                    "question": " Logical ports are also known as _________",
+                    "choice1": "Numbered Ports",
+                    "choice2": "Virtual Numbering",
+                    "choice3": "Network Protocol Ports",
+                    "choice4": "Virtual Ports",
+                    "answer": 3
+                },
+                {
+                    "question": "________ needs some control for data flow on each and every logical port.",
+                    "choice1": "Antivirus",
+                    "choice2": "Intrusion Detection System",
+                    "choice3": "Anti malware",
+                    "choice4": "Network firewall",
+                    "answer": 4
+                },
+                {
+                    "question": "Which of the following is the port number for SMTP service?",
+                    "choice1": "29",
+                    "choice2": "27",
+                    "choice3": "25",
+                    "choice4": "23",
+                    "answer": 3
+                },
+                {
+                    "question": "Which of the following is the port number for TFTP service?",
+                    "choice1": "69",
+                    "choice2": "70",
+                    "choice3": "71",
+                    "choice4": "72",
+                    "answer": 1
+                },
+                {
+                    "question": "Which of the following is the port number for SFTP service?",
+                    "choice1": "21",
+                    "choice2": "22",
+                    "choice3": "23",
+                    "choice4": "69",
+                    "answer": 2
+                },
+                {
+                    "question": "Which of the following is the port number for POP3?",
+                    "choice1": "110",
+                    "choice2": "112",
+                    "choice3": "111",
+                    "choice4": "113",
+                    "answer": 1
+                },
+                {
+                    "question": "Number of logical ports ranges from _____ to _____",
+                    "choice1": "0, 255",
+                    "choice2": "1, 65535",
+                    "choice3": "1, 65536",
+                    "choice4": "0, 65536",
+                    "answer": 4
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Indian heritage",
+            "id": "cah1",
+            "Styles": [{
+                "Background": "linear-gradient(to left, #fdc830, #f37335)",
+                "progressBarColor": "White",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "#b94c04"
+            }],
+            "Questions": [{
+                    "question": "Which temple are well known fro their Nagara style symbolism and erotic figures and sculptures ?",
+                    "choice1": "Aksardham",
+                    "choice2": "Khajuraho",
+                    "choice3": "Hampi",
+                    "choice4": "Ajanta",
+                    "answer": 2
+                },
+                {
+                    "question": "The National Anthem was first sung in the year -",
+                    "choice1": "1911",
+                    "choice2": "1947",
+                    "choice3": "1936",
+                    "choice4": "1928",
+                    "answer": 1
+                },
+                {
+                    "question": "Madhubani- a style of painting is, popular in which state of India ? ",
+                    "choice1": "Uttar Pradesh",
+                    "choice2": "Rajasthan",
+                    "choice3": "Bihar",
+                    "choice4": "West Bengal",
+                    "answer": 3
+                },
+                {
+                    "question": "Name the heritage site that consist of the finest masterpieces of 31 rock cut Buddhist cave monuments, paintings and sculpture ? ",
+                    "choice1": "Khajuraho",
+                    "choice2": "Hampi",
+                    "choice3": "Ajanta",
+                    "choice4": "Ellora",
+                    "answer": 3
+                },
+                {
+                    "question": "Which among the following temples in India is known as Black Pagoda ? ",
+                    "choice1": "Sun Temple, Konark",
+                    "choice2": "Brihadeeswara Temple, Tanjore",
+                    "choice3": "Lord Jagannath Temple, Puri",
+                    "choice4": "Meenakshi Temple, Madurai",
+                    "answer": 1
+                },
+                {
+                    "question": "What was built by emperor Shah Jahan when he shifted hia capital from Agra to Delhi ? ",
+                    "choice1": "Taj",
+                    "choice2": "Qutub Minar",
+                    "choice3": "Red Fort",
+                    "choice4": "Sanchi",
+                    "answer": 3
+                },
+
+                {
+                    "question": "Which of the following dance is associated with the state of Jammu and Kashmir ?",
+                    "choice1": "Jhora",
+                    "choice2": "Veedhi",
+                    "choice3": "Rauf",
+                    "choice4": "Suisini",
+                    "answer": 3
+                },
+                {
+                    "question": "Which heritage site well known for its Stepped Corridors, Sculptures ans stone carvings in the well ? ",
+                    "choice1": "Buland Darwaza",
+                    "choice2": "Pattadakal",
+                    "choice3": "Sun Temple",
+                    "choice4": "Rani ki vav",
+                    "answer": 4
+                },
+                {
+                    "question": "The holy book of Parsis is known as -",
+                    "choice1": "Gita",
+                    "choice2": "Zend Avesta",
+                    "choice3": "Torah",
+                    "choice4": "Bible",
+                    "answer": 3
+                },
+                {
+                    "question": "Which World Heritage site in India was built by Begun Bega ?",
+                    "choice1": "Humayun's Tomb",
+                    "choice2": "Taj Mahal",
+                    "choice3": "Red Fort",
+                    "choice4": "Qutub Minar",
+                    "answer": 1
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "World history",
+            "id": "cah2",
+            "Styles": [{
+                "Background": "linear-gradient(to top, #34e89e, #0f3443)",
+                "progressBarColor": "White",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "#0d1b5a"
+            }],
+            "Questions": [{
+                    "question": "The world's oldest continuously inhabited city is -",
+                    "choice1": "Jerusalem",
+                    "choice2": "Baghdad",
+                    "choice3": "Istanbul",
+                    "choice4": "Damascus",
+                    "answer": 4
+                },
+                {
+                    "question": "The world's first drainage ssytem was built by the people of -",
+                    "choice1": "Egyptian civilization",
+                    "choice2": "Indus Valley civilization",
+                    "choice3": "Chinese civilization",
+                    "choice4": "Mesopotamian civilization",
+                    "answer": 2
+                },
+                {
+                    "question": "Indonesia was a colony of which of the following countries?",
+                    "choice1": "Dutch",
+                    "choice2": "Spain",
+                    "choice3": "Portugal",
+                    "choice4": "Belgium",
+                    "answer": 1
+                },
+                {
+                    "question": "Who is known as the- Lady with the Lamp ",
+                    "choice1": "Joan of Arc",
+                    "choice2": "Hellen Keller",
+                    "choice3": "Florence Nightingale",
+                    "choice4": "Sarojini Naidu",
+                    "answer": 3
+                },
+                {
+                    "question": "With teh fall of which among the following, the French Revolution began ? ",
+                    "choice1": "Bastille",
+                    "choice2": "Communes",
+                    "choice3": "Jacobin Club",
+                    "choice4": "Pillnitz",
+                    "answer": 1
+                },
+                {
+                    "question": "Liberty, Equality and Fraternity is the call associated with -",
+                    "choice1": "American Revolution",
+                    "choice2": "French Revolution",
+                    "choice3": "Chinese Revolution",
+                    "choice4": "Russian Revolution",
+                    "answer": 2
+                },
+                {
+                    "question": "Where did the first Industrial Revolution took place ?",
+                    "choice1": "America ",
+                    "choice2": "Great Britain",
+                    "choice3": "Germany",
+                    "choice4": "France",
+                    "answer": 2
+                },
+                {
+                    "question": "Who discovered the sea route to India ?",
+                    "choice1": "Vasco-da-gama",
+                    "choice2": "Columbus",
+                    "choice3": "Magellen",
+                    "choice4": "Bartho-lomev-Dias",
+                    "answer": 1
+                },
+                {
+                    "question": "Napolean got finally overthrown in the Battle of Waterloo in the year -",
+                    "choice1": "1814",
+                    "choice2": "1813",
+                    "choice3": "1815",
+                    "choice4": "1816",
+                    "answer": 3
+                },
+
+                {
+                    "question": "French Revolution broke out in which year ?",
+                    "choice1": "1717",
+                    "choice2": "1711",
+                    "choice3": "1789",
+                    "choice4": "1790",
+                    "answer": 3
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Harry Potter",
+            "id": "et1",
+            "Styles": [{
+                "Background": "linear-gradient(to left, #c31432, #240b36)",
+                "progressBarColor": "White",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "black"
+            }],
+            "Questions": [{
+                    "question": "Which of these is NOT one of the Unforgivable Curses?",
+                    "choice1": "Cruciatus Curse",
+                    "choice2": "Imperius Curse",
+                    "choice3": "Sectumsempra",
+                    "choice4": "Avada Kedavra",
+                    "answer": 3
+                },
+                {
+                    "question": "Who guards the entrance to the Gryffindor common room?",
+                    "choice1": "The Grey Lady",
+                    "choice2": "The Fat Friar",
+                    "choice3": "The Bloody Baron",
+                    "choice4": "The Fat Lady",
+                    "answer": 4
+                },
+                {
+                    "question": "Who is NOT a member of the Order of the Phoenix?",
+                    "choice1": "Cornelius Fudge",
+                    "choice2": "Mad-eye Moody",
+                    "choice3": "Professor Snape",
+                    "choice4": "Remus Lupin",
+                    "answer": 1
+                },
+                {
+                    "question": "A wizard who cannot do magic is known as a :",
+                    "choice1": "Nomaj",
+                    "choice2": "Squib",
+                    "choice3": "Muggle",
+                    "choice4": "Mudblood",
+                    "answer": 2
+                },
+                {
+                    "question": "What does the spell “Obliviate” do?",
+                    "choice1": "Destroys objects",
+                    "choice2": "Sends someone to the nether realm",
+                    "choice3": "Removes parts of someone’s memory",
+                    "choice4": "Makes objects invisible",
+                    "answer": 3
+                },
+                {
+                    "question": "Where does Hermione brew her first batch of Polyjuice Potion?",
+                    "choice1": "Moaning Myrtle’s Bathroom",
+                    "choice2": "The Hogwarts Kitchen",
+                    "choice3": "The Room of Requirement",
+                    "choice4": "The Gryffindor Common Room",
+                    "answer": 1
+                },
+                {
+                    "question": "Where do Harry and Ron eventually find the missing flying Ford Anglia?",
+                    "choice1": "At the Ministry of Magic",
+                    "choice2": "In the Forbidden Forest",
+                    "choice3": "In the Room of Requirement",
+                    "choice4": "Outside the Dursleys House",
+                    "answer": 2
+                },
+                {
+                    "question": "From what King’s Cross platform does the Hogwarts Express leave?",
+                    "choice1": "Eight and One-quarter",
+                    "choice2": "Nine and Three-quarters",
+                    "choice3": "Five and a Half",
+                    "choice4": "Eleven",
+                    "answer": 2
+                },
+                {
+                    "question": "Who has given Harry Potter the Invisibility cloak?",
+                    "choice1": "Dumbledore",
+                    "choice2": "Mad-eye Moody",
+                    "choice3": "Professor Snape",
+                    "choice4": "Dobby",
+                    "answer": 1
+                },
+                {
+                    "question": "What wood is Harry Potter’s wand made out of?",
+                    "choice1": "Hazel",
+                    "choice2": "Fir",
+                    "choice3": "Holly",
+                    "choice4": "Hawthorn",
+                    "answer": 3
+                }
+            ]
+        },
+        {
+            "Subcategory": "The Vampire Diaries",
+            "id": "et2",
+            "Styles": [{
+                "Background": "linear-gradient(to right, #0f0c29, #302b63, #24243e)",
+                "progressBarColor": "White",
+                "topTextColor": "white",
+                "optionTextColor": "black",
+                "optionBgColor": "#c9c7c7"
+            }],
+            "Questions": [{
+                    "question": "In what town does the show primarily take place ?",
+                    "choice1": "Rosewood ",
+                    "choice2": "Mystic falls",
+                    "choice3": "Sunnydale",
+                    "choice4": "None of the above",
+                    "answer": 2
+                },
+                {
+                    "question": "What is the name Stefan's best friend, who appears in season one and is promptly killed?",
+                    "choice1": "Katherine",
+                    "choice2": "Lexi",
+                    "choice3": "Caroline",
+                    "choice4": "Enzo",
+                    "answer": 2
+                },
+                {
+                    "question": "What does the herb Vervain do?",
+                    "choice1": "It allows vampires to walk in the sunlight.",
+                    "choice2": "It helps to kill a vampire.",
+                    "choice3": "It protects humans from vampire compulsion.",
+                    "choice4": "All of the above",
+                    "answer": 3
+                },
+                {
+                    "question": "What does Klaus give Caroline as a graduation present?",
+                    "choice1": "A Vervain ring",
+                    "choice2": "Tyler's freedom",
+                    "choice3": " A bracelet",
+                    "choice4": "A Gown",
+                    "answer": 2
+                },
+                {
+                    "question": "Who is Stefan's evil doppelgänger?",
+                    "choice1": "Kai",
+                    "choice2": "Tom Avery",
+                    "choice3": "Silas",
+                    "choice4": "Finn",
+                    "answer": 3
+                },
+                {
+                    "question": "In Season 5, why does Bonnie struggle at school?",
+                    "choice1": "Her witches powers are turned off.",
+                    "choice2": "She is an anchor to the ‘The Other Side’.",
+                    "choice3": "She was under Emily Bennett’s spell.",
+                    "choice4": "None of the above",
+                    "answer": 2
+                },
+                {
+                    "question": "What prison world were Damon and Bonnie stuck in?",
+                    "choice1": "June 10, 1994 ",
+                    "choice2": "May 10, 1994 ",
+                    "choice3": "July 10, 1994 ",
+                    "choice4": "March 10, 1994 ",
+                    "answer": 2
+                },
+                {
+                    "question": "Who did Elena met first amongst the followings?",
+                    "choice1": "Stefan",
+                    "choice2": "Damon",
+                    "choice3": "Klaus",
+                    "choice4": "Katherine",
+                    "answer": 2
+                },
+                {
+                    "question": "How does Liz Forbes die?",
+                    "choice1": "Cancer",
+                    "choice2": "Gun shot",
+                    "choice3": "Vampire",
+                    "choice4": "Car accident",
+                    "answer": 1
+                },
+                {
+                    "question": "What does Matt ringing the bell eleven times allow to happen?",
+                    "choice1": "Enzo is able to get his humanity back.",
+                    "choice2": "Cade is able to come to Mystic Falls.",
+                    "choice3": "All the vampires will be dead.",
+                    "choice4": "None of the above",
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "Subcategory": "F.R.I.E.N.D.S",
+            "id": "et3",
+            "Styles": [{
+                "Background": "linear-gradient(to right, #ff4e50, #f9d423)",
+                "progressBarColor": "White",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "#bd0e34"
+            }],
+            "Questions": [{
+                    "question": "Whose boyfriend was Mike ?",
+                    "choice1": "He was just a friend.",
+                    "choice2": "Phoebe",
+                    "choice3": "Rachel",
+                    "choice4": "Monica",
+                    "answer": 2
+                },
+                {
+                    "question": "What is Ross’ first wife’s name?",
+                    "choice1": "Carol",
+                    "choice2": "Emily",
+                    "choice3": "Charlie",
+                    "choice4": "Rachel",
+                    "answer": 1
+                },
+                {
+                    "question": "On which soap opera does Joey have a recurring role as Dr. Drake Ramoray?",
+                    "choice1": "General hospital",
+                    "choice2": "Days of our lives",
+                    "choice3": "The bold and the beautiful",
+                    "choice4": "All my children",
+                    "answer": 2
+                },
+                {
+                    "question": "What is Phoebe’s twin sister’s name?",
+                    "choice1": "Ursula Buffay",
+                    "choice2": "Leslie Buffay",
+                    "choice3": "Chrissy Buffay",
+                    "choice4": "Regina Phalange",
+                    "answer": 1
+                },
+                {
+                    "question": "What is the name of Rachel and Monica’s downstairs neighbor?",
+                    "choice1": "Mr.Heckles",
+                    "choice2": "Ugly naked guy",
+                    "choice3": "Fun Bobby",
+                    "choice4": "Mr. Treeger",
+                    "answer": 1
+                },
+                {
+                    "question": "What color is the couch that the friends sit on at Central Perk?",
+                    "choice1": "Brown",
+                    "choice2": "Red",
+                    "choice3": "Yellow",
+                    "choice4": "Orange",
+                    "answer": 4
+                },
+                {
+                    "question": "What is the name of Joey and Chandler’s pet duck?",
+                    "choice1": "Duck",
+                    "choice2": "Bruce",
+                    "choice3": "Melvin",
+                    "choice4": "Marcel",
+                    "answer": 1
+                },
+                {
+                    "question": "What was the name of the barista-turned-manager of Central Perk?",
+                    "choice1": "Tyler",
+                    "choice2": "Gunther",
+                    "choice3": "Michael",
+                    "choice4": "Bobby",
+                    "answer": 2
+                },
+                {
+                    "question": "Which of the following animals was not a pet on Friends?",
+                    "choice1": "Rat",
+                    "choice2": "Hairless cat",
+                    "choice3": "Capuchin monkey",
+                    "choice4": "Micro-pig",
+                    "answer": 4
+                },
+                {
+                    "question": "How many categories for towels does Monica have?",
+                    "choice1": "9",
+                    "choice2": "10",
+                    "choice3": "11",
+                    "choice4": "8",
+                    "answer": 3
+                }
+            ]
+        },
+        {
+            "Subcategory": "Indian",
+            "id": "f1",
+            "Styles": [{
+                "Background": "https://ak.picdn.net/shutterstock/videos/1013985758/thumb/1.jpg",
+                "progressBarColor": "maroon",
+                "topTextColor": "white",
+                "optionTextColor": "#fff",
+                "optionBgColor": "DarkGoldenRod"
+            }],
+            "Questions": [{
+                    "question": "Which spice is called the queen of spices?",
+                    "choice1": "Cinnamon",
+                    "choice2": "Black Pepper",
+                    "choice3": "Cardamom",
+                    "choice4": "Cumin",
+                    "answer": 3
+                },
+                {
+                    "question": "Which is the most famous Indian spice that also belong to parsley family ",
+                    "choice1": "Asafotida",
+                    "choice2": "Cumin",
+                    "choice3": "Nigella seeds",
+                    "choice4": "Cinnamom",
+                    "answer": 2
+                },
+                {
+                    "question": "Though ‘Sambar’ is popular across South India, which state is most famous for ‘Sambar’?",
+                    "choice1": "Gujarat",
+                    "choice2": "Tamil Nadu",
+                    "choice3": "Andhra Pradesh",
+                    "choice4": "Kerala",
+                    "answer": 2
+                },
+                {
+                    "question": "What is an Indian homemade cheese called?",
+                    "choice1": "Ghee",
+                    "choice2": "Curd",
+                    "choice3": "Dahi",
+                    "choice4": "Paneer",
+                    "answer": 4
+                },
+                {
+                    "question": "Which of these is a key ingredient in the Indian dish chana masala?",
+                    "choice1": "Chicken",
+                    "choice2": "Yogurt",
+                    "choice3": "Chickpea",
+                    "choice4": "Spinach",
+                    "answer": 3
+                },
+                {
+                    "question": "The region surrounding which Indian city is especially known for its oranges? ",
+                    "choice1": "Pune ",
+                    "choice2": "Chandigarh",
+                    "choice3": "Nagpur",
+                    "choice4": "Indore",
+                    "answer": 3
+                },
+                {
+                    "question": "Which of these was called ' food of the gods' in ancient India?",
+                    "choice1": "Yogurt",
+                    "choice2": "Bread",
+                    "choice3": "Cheeze",
+                    "choice4": "Kheer",
+                    "answer": 1
+                },
+                {
+                    "question": "Which of these desserts is commonly served at Muslim and Hindu festivals and special occasions and is sometimes called 'payasam' in southern India? ",
+                    "choice1": "Ras malai",
+                    "choice2": "Kulfi",
+                    "choice3": "Kheer",
+                    "choice4": "Basundi",
+                    "answer": 3
+                },
+                {
+                    "question": "Name the Indian food that is made from betel leaf filled with chopped betel nut and slaked lime.",
+                    "choice1": "Murabba",
+                    "choice2": "Falooda",
+                    "choice3": "Paan",
+                    "choice4": "Mukhwas",
+                    "answer": 3
+                },
+                {
+                    "question": "Litti Chokha is famous food of which state?",
+                    "choice1": "Uttar Pradesh",
+                    "choice2": "Bihar",
+                    "choice3": "Manipur",
+                    "choice4": "Rajasthan",
+                    "answer": 4
+                }
+            ]
+        },
+        {
+            "Subcategory": "Korean",
+            "id": "f2",
+            "Styles": [{
+                "Background": "https://mixkit.imgix.net/art/preview/mixkit-table-with-various-korean-foods-80-desktop-wallpaper-medium.png",
+                "progressBarColor": "maroon",
+                "topTextColor": "chocolate",
+                "optionTextColor": "#fff",
+                "optionBgColor": "coral"
+            }],
+            "Questions": [{
+                    "question": "Korea is the largest consumer of a seasoning that is typically used in Korean cuisine. What seasoning is this?",
+                    "choice1": "Ginger",
+                    "choice2": "Sesame oil",
+                    "choice3": "Garlic",
+                    "choice4": "Soy sauce",
+                    "answer": 3
+                },
+                {
+                    "question": "What do many Koreans start their meals with?",
+                    "choice1": "An appetizer",
+                    "choice2": "Kimbap",
+                    "choice3": "Soup",
+                    "choice4": "The main course",
+                    "answer": 3
+                },
+                {
+                    "question": "What is kimchi made of?",
+                    "choice1": "Rice ",
+                    "choice2": "Cabbage",
+                    "choice3": "Noodles",
+                    "choice4": "Bananas",
+                    "answer": 2
+                },
+                {
+                    "question": "What does bulgogi literally mean?",
+                    "choice1": "Cow's thing",
+                    "choice2": "Fire meat",
+                    "choice3": "Don't eat",
+                    "choice4": "Eat a lot",
+                    "answer": 2
+                },
+                {
+                    "question": "What do Koreans call dumplings?",
+                    "choice1": "Japchee",
+                    "choice2": "Hobakjeon",
+                    "choice3": "Tapioca",
+                    "choice4": "Mandoo",
+                    "answer": 4
+                },
+                {
+                    "question": "If you are in the mood for noodles, you should try some jajangmyeon (say 'ja-jang-mee-on'), which is a dish of noodles, meat and a sauce made from this type bean:",
+                    "choice1": "Kidney beans",
+                    "choice2": "Black beans",
+                    "choice3": "Soybean",
+                    "choice4": "None of the above",
+                    "answer": 2
+                },
+                {
+                    "question": "Many Korean dishes have noodles, but what makes the noodles in japchae (say 'jap-chee') so special is is that they're made of this Thanksgiving favourite food:",
+                    "choice1": "Turkey",
+                    "choice2": "Cranberry",
+                    "choice3": "Sweet potato",
+                    "choice4": "kimchi",
+                    "answer": 3
+                },
+                {
+                    "question": "Pick the Korean word for Korean crab stew",
+                    "choice1": "Kkotgetang",
+                    "choice2": "Jogaetang",
+                    "choice3": "Maeuntang",
+                    "choice4": "None of the above",
+                    "answer": 1
+                },
+                {
+                    "question": "Pick the Korean word for spicy rice cakes",
+                    "choice1": "Eomuk",
+                    "choice2": "Hobakjeon",
+                    "choice3": "Gungjung-tteokbokki",
+                    "choice4": "Tteokbokki",
+                    "answer": 1
+                },
+                {
+                    "question": "Which noodle dish is primarily eaten in the summer?",
+                    "choice1": "Japchae",
+                    "choice2": "Kalguksu",
+                    "choice3": "Ramyeon",
+                    "choice4": "Mul naengmyeon",
+                    "answer": 4
+                }
+            ]
+        },
+        {
+            "Subcategory": "Mexican",
+            "id": "f3",
+            "Styles": [{
+                "Background": "https://previews.123rf.com/images/tbralnina/tbralnina1604/tbralnina160400062/55794599-concept-of-mexican-food-food-background-top-view-.jpg",
+                "progressBarColor": "olivedrab",
+                "topTextColor": "black",
+                "optionTextColor": "#fff",
+                "optionBgColor": "olivedrab"
+            }],
+            "Questions": [{
+                    "question": "Which of these would you NOT expect to find in a burrito?",
+                    "choice1": "Rice",
+                    "choice2": "Black beans",
+                    "choice3": "Tofu",
+                    "choice4": "Chilles",
+                    "answer": 3
+                },
+                {
+                    "question": "What kind of beans go in chilli con carne?",
+                    "choice1": "Kidney beans",
+                    "choice2": "Green beans",
+                    "choice3": "Butter beans",
+                    "choice4": "Baked beans",
+                    "answer": 1
+                },
+                {
+                    "question": "Traditional Mexican cooking doesn't like to waste meat. What parts of the cow are on the menu?",
+                    "choice1": " Udders",
+                    "choice2": "Stomach",
+                    "choice3": "Tongue",
+                    "choice4": "All of the above",
+                    "answer": 4
+                },
+                {
+                    "question": "What is Tequila made from?",
+                    "choice1": "potatoes",
+                    "choice2": "sugarcane",
+                    "choice3": "blue agave",
+                    "choice4": "grapes",
+                    "answer": 3
+                },
+                {
+                    "question": "Which one of the following is an ingredient of the Mole sauce?",
+                    "choice1": "corn",
+                    "choice2": "flour",
+                    "choice3": "onion",
+                    "choice4": "chocolate",
+                    "answer": 4
+                },
+                {
+                    "question": "A staple of Mexican menus, a little pico de gallo goes a long way. What's another name for this common Mexican food item?",
+                    "choice1": "mole sauce",
+                    "choice2": "slasa fresca",
+                    "choice3": "chicken broth",
+                    "choice4": "guacamole",
+                    "answer": 2
+                },
+                {
+                    "question": "Blanco, Verde, and Rojo are all different varieties of Pozole, a special kind of Mexican soup with what main ingredient?",
+                    "choice1": "Split peas",
+                    "choice2": "Beer",
+                    "choice3": "Hominy",
+                    "choice4": "Chocolate",
+                    "answer": 3
+                },
+                {
+                    "question": "Corn tortillas are a mainstay in Mexican cuisine, and they come in three colors. Which of these is NOT a hue of Mexican tortillas?",
+                    "choice1": "Green",
+                    "choice2": "Yellow",
+                    "choice3": "Red",
+                    "choice4": "Blue",
+                    "answer": 1
+                },
+                {
+                    "question": "Along with great food comes great drink. What's the main thing you need to add to beer to get a Mexican beverage called Michelada?",
+                    "choice1": "Coconut milk",
+                    "choice2": "Orange juice ",
+                    "choice3": "Raw eggs",
+                    "choice4": "Tomato juice",
+                    "answer": 4
+                },
+                {
+                    "question": " You can learn 'Elot' about a culture's palate from its street food. In Mexico, what is elote, found frequently at street food markets in the country?",
+                    "choice1": "A type of donut",
+                    "choice2": "Fried peanuts",
+                    "choice3": "Crickets",
+                    "choice4": "Corn on the cob",
+                    "answer": 4
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "General Awareness",
+            "id": "cua1",
+            "Styles": [{
+                "Background": "linear-gradient(90deg, rgba(0,62,13,1) 0%, rgba(0,112,23,1) 50%, rgba(0,150,33,1) 100%)",
+                "progressBarColor": "#fff5cc",
+                "topTextColor": "#fff5cc",
+                "optionTextColor": "#0f3e0f",
+                "optionBgColor": "#fff5cc"
+            }],
+            "Questions": [{
+                    "question": "Who presents the Union budget of India in the parliament?",
+                    "choice1": "Chairperson, Central Board of Direct Taxes (CBDT)",
+                    "choice2": "Secretary, Department of Economic Affairs",
+                    "choice3": "Union Finance Minister of India",
+                    "choice4": "Prime Minister of India",
+                    "answer": 3
+                },
+                {
+                    "question": "On which date, the Union budget of India comes into effect?",
+                    "choice1": "1st February",
+                    "choice2": "1st March",
+                    "choice3": "1st April",
+                    "choice4": "31st April",
+                    "answer": 3
+                },
+                {
+                    "question": "Which of the following is not the part of prominent themes, on the basis of which Union budget 2020-2021 was presented?",
+                    "choice1": "Aspirational India",
+                    "choice2": "Ease of Living",
+                    "choice3": "Economic development for all",
+                    "choice4": "Environmental concerns",
+                    "answer": 4
+                },
+                {
+                    "question": "What the name of speaker of Lok Sabha to whom Indian Union Budget for 2020-2021 was addressed by Union Finance Minister Nirmala Sitharaman?",
+                    "choice1": "Harivansh Narayan Singh",
+                    "choice2": "Thawar Chand Gehlot",
+                    "choice3": " Meira Kumar ",
+                    "choice4": " Om Birla ",
+                    "answer": 4
+                },
+                {
+                    "question": "What is the name of the first full-time woman Finance Minister of India, who presented the Union Budget?",
+                    "choice1": " Nirmala Sitharaman ",
+                    "choice2": " Late Sushma swaraj  ",
+                    "choice3": " Maneka Gandhi ",
+                    "choice4": " Uma Bharati ",
+                    "answer": 1
+                },
+                {
+                    "question": "The scheme ‘One product one district scheme’ is related to which kind of product?",
+                    "choice1": " Dairy product ",
+                    "choice2": " Aquaculture product  ",
+                    "choice3": " Organic product ",
+                    "choice4": " Horticulture product ",
+                    "answer": 4
+                },
+                {
+                    "question": "It is proposed to reduce the time of stay in India for an Indian citizen or person of Indian origin to how many days to become resident in India?",
+                    "choice1": "180",
+                    "choice2": "120",
+                    "choice3": "150",
+                    "choice4": "200",
+                    "answer": 2
+                },
+                {
+                    "question": "Which year’s Union Budget is known as “Black Budget” of India?",
+                    "choice1": " 1951-52 ",
+                    "choice2": " 1958-59  ",
+                    "choice3": " 1973-74 ",
+                    "choice4": " 1997-98 ",
+                    "answer": 3
+                },
+                {
+                    "question": "Which finance minister of India, has presented the maximum number of budgets so far?",
+                    "choice1": " Pranab Mukherjee ",
+                    "choice2": " Morarji Desai  ",
+                    "choice3": " P Chidambaram ",
+                    "choice4": " Manmohan Singh ",
+                    "answer": 2
+                },
+                {
+                    "question": "Which bank is the only Indian bank listed in the global top 100 list?",
+                    "choice1": "SBI",
+                    "choice2": "HDFC",
+                    "choice3": "ICICI",
+                    "choice4": "PNB",
+                    "answer": 1
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Indian Polity",
+            "id": "cua2",
+            "Styles": [{
+                "Background": "linear-gradient(90deg, rgba(130,54,0,1) 0%, rgba(210,126,0,1) 100%)",
+                "progressBarColor": "#fff",
+                "topTextColor": "#fff",
+                "optionTextColor": "black",
+                "optionBgColor": "#fff"
+            }],
+            "Questions": [{
+                    "question": "Supreme Court Judges retire upon attaining the age of",
+                    "choice1": "65 years",
+                    "choice2": "62 years ",
+                    "choice3": "68 years",
+                    "choice4": "70 years",
+                    "answer": 1
+                },
+                {
+                    "question": "Who was the first Chief Justice of India",
+                    "choice1": "Patanjali Sastri",
+                    "choice2": "H J Kania",
+                    "choice3": "SR Das",
+                    "choice4": "Chand Mahajan",
+                    "answer": 2
+                },
+                {
+                    "question": "What is the Largest Union Territory of India ",
+                    "choice1": "Delhi",
+                    "choice2": "Chandigarh",
+                    "choice3": "Daman and Diu",
+                    "choice4": "Pondichery",
+                    "answer": 4
+                },
+                {
+                    "question": "When was the first session of Lok Sabha held ",
+                    "choice1": "15th August, 1950",
+                    "choice2": "15th August, 1952",
+                    "choice3": "13th May, 1952",
+                    "choice4": "12th January, 1953",
+                    "answer": 3
+                },
+                {
+                    "question": "Longest serving speaker of lok sabha is",
+                    "choice1": "Somnath Chatterjee",
+                    "choice2": "PA Sangma",
+                    "choice3": "Balram Jakhar",
+                    "choice4": "KS Hegde",
+                    "answer": 3
+                },
+                {
+                    "question": "What are the Total number of High Courts in India ",
+                    "choice1": "32",
+                    "choice2": "24",
+                    "choice3": "27",
+                    "choice4": "21",
+                    "answer": 2
+                },
+                {
+                    "question": "Who is the longest serving Chief Minister in India",
+                    "choice1": "M Karunanidhi",
+                    "choice2": "Jyoti Basu",
+                    "choice3": "Pawan Kumar Chamling",
+                    "choice4": "Manik Sarkar",
+                    "answer": 3
+                },
+                {
+                    "question": "Right to Information Act in India came fully into force in",
+                    "choice1": "October,2008",
+                    "choice2": "June,2005",
+                    "choice3": "July,2008",
+                    "choice4": "October,2005",
+                    "answer": 2
+                },
+                {
+                    "question": "Who got Bharat Ratna Award before becoming the President of India",
+                    "choice1": "Dr Zakir Hussain",
+                    "choice2": "Rajendra Prasad",
+                    "choice3": "Dr V V Giri",
+                    "choice4": "APJ Abdul Kalam",
+                    "answer": 1
+                },
+                {
+                    "question": "Who is the first Prime Minister except Jawaharlal Nehru to return to the power after completing a full five-year term",
+                    "choice1": "Indira Gandhi",
+                    "choice2": "Rajiv Gandhi",
+                    "choice3": "Lal Bahadur Shastri",
+                    "choice4": "Manmohan Singh ",
+                    "answer": 4
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Shashi tharoor ",
+            "id": "en1",
+            "Styles": [{
+                "Background": "https://lh3.ggpht.com/-nsGfO7iCWlc/VPMYcZlHxsI/AAAAAAAAIPs/Lqd_xGLb6n8/book-and-pen.jpg?imgmax=0",
+                "progressBarColor": "white",
+                "topTextColor": "#fff",
+                "optionTextColor": "#000",
+                "optionBgColor": "teal"
+            }],
+            "Questions": [{
+                    "question": "What does the word 'Farrago' mean",
+                    "choice1": "A confused mixture",
+                    "choice2": "In the distant past",
+                    "choice3": "Lying deliberately",
+                    "choice4": "None of the above",
+                    "answer": 1
+                },
+                {
+                    "question": "what does 'Bulwark' mean",
+                    "choice1": "A defensive wall ",
+                    "choice2": "A gold accessory",
+                    "choice3": "An arrogant person",
+                    "choice4": "None of the above",
+                    "answer": 1
+                },
+                {
+                    "question": "APTAGRAM: ",
+                    "choice1": "An anagram that incorporates the meaning of a word",
+                    "choice2": "A word that is an antonym of itself",
+                    "choice3": "An anagram that incorporates the antonym of a word",
+                    "choice4": "A word that has a different meaning in different situation",
+                    "answer": 1
+                },
+                {
+                    "question": "FRISSON:",
+                    "choice1": "Feeling of emptiness",
+                    "choice2": "A sudden feelings of excitement or Fear",
+                    "choice3": "A cause of dispute",
+                    "choice4": "Feeling of hoplesness",
+                    "answer": 2
+                },
+                {
+                    "question": "LALOCHEZIA:",
+                    "choice1": "A very attractive person",
+                    "choice2": "Emotional relif gained by using vulgar language",
+                    "choice3": "A french dessert",
+                    "choice4": "The name  of a plant",
+                    "answer": 2
+                },
+                {
+                    "question": "CONTRONYM:",
+                    "choice1": "A word that controls the structure in a sentence",
+                    "choice2": "A word that has no synonym",
+                    "choice3": "A word that can also mean the opposite of itself",
+                    "choice4": "A Fear of synonyms ",
+                    "answer": 3
+                },
+
+                {
+                    "question": "what is the meaning of 'Fatuous'",
+                    "choice1": "Pointless",
+                    "choice2": "Irritating",
+                    "choice3": "Bloated",
+                    "choice4": "Annoying",
+                    "answer": 1
+                },
+                {
+                    "question": "Floccinaucinihilipilification: the act of estimating something or someone as ",
+                    "choice1": "Indispensable",
+                    "choice2": "Worthless",
+                    "choice3": "A worthy opponent",
+                    "choice4": "Intelligent",
+                    "answer": 2
+                },
+                {
+                    "question": "Epistemophilia : an excessive love of ",
+                    "choice1": "Shoes",
+                    "choice2": "Travel",
+                    "choice3": "Plants",
+                    "choice4": "Knowledge",
+                    "answer": 4
+                },
+                {
+                    "question": "HIPPOPOTOMONSTROSESQUIPEDALIOPHOBIA:",
+                    "choice1": "Fear of hippopotamus",
+                    "choice2": "Fear of shirts",
+                    "choice3": "Fear of pens",
+                    "choice4": "Fear of long words",
+                    "answer": 4
+                }
+            ]
+        },
+        {
+            "Subcategory": "Books",
+            "id": "en2",
+            "Styles": [{
+                "Background": "https://images2.alphacoders.com/261/thumb-1920-26102.jpg",
+                "progressBarColor": "white",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "chocolate"
+            }],
+            "Questions": [{
+                    "question": "Which amaongst the following is a book writeen by Dr. Harivansh Rai Bachchan?",
+                    "choice1": "Chidambhara",
+                    "choice2": "Kapala Kundala",
+                    "choice3": "Kamayani",
+                    "choice4": "Prateeksha",
+                    "answer": 4
+                },
+                {
+                    "question": "Who is the author if the book 'Conquest of Happiness'",
+                    "choice1": "Thomas Hardy",
+                    "choice2": "Aldous Huxley",
+                    "choice3": "Bertrand Russell",
+                    "choice4": "George Bernard Shaw",
+                    "answer": 3
+                },
+                {
+                    "question": "Which author’s 1981 bestseller apparently “predicted” the pandemic with its plot device of a Wuhan-virus?",
+                    "choice1": "Collen McCullough",
+                    "choice2": "Dean Koontz",
+                    "choice3": "Stephen King",
+                    "choice4": "Michael Crichton",
+                    "answer": 2
+                },
+                {
+                    "question": "Who is the author of the book 'War and diplomacy in kashmir' ?",
+                    "choice1": "G.Parthasarathy",
+                    "choice2": "Sir Owen Dixon",
+                    "choice3": "C.Dasgupta",
+                    "choice4": "Kuldeep Nayak",
+                    "answer": 3
+                },
+                {
+                    "question": "Philip Pullman’s 2004 short story “Serpentine”, featuring Lyra Belacqua and published for the first time in year 2020, was originally written for:",
+                    "choice1": "A charity auction",
+                    "choice2": "A screenplay ",
+                    "choice3": "His grandchilDren",
+                    "choice4": "An opera libretto",
+                    "answer": 1
+                },
+                {
+                    "question": "Albert Camus’s 1947 novel The Plague is widely thought to be an allegory of:",
+                    "choice1": "The wartime Vichy government in france",
+                    "choice2": "De Gaulle's free french in London",
+                    "choice3": "The french occupation of Algeria",
+                    "choice4": "The German occupation of France",
+                    "answer": 4
+                },
+                {
+                    "question": "Who wrote the play 'Uttararamacharita' ",
+                    "choice1": "Harsh",
+                    "choice2": "Tulsidas",
+                    "choice3": "Bhavabhuti",
+                    "choice4": "SuDraka",
+                    "answer": 3
+                },
+                {
+                    "question": "'India Wins Freedom' is the autobiography of",
+                    "choice1": "AbulKalamAzad",
+                    "choice2": "Muhammand Ali",
+                    "choice3": "Zakir Hussain",
+                    "choice4": "Syed Ahmed Khan",
+                    "answer": 1
+                },
+                {
+                    "question": "The book 'Unto the Last' which influnced gandhi was authored by",
+                    "choice1": "Boorish Yeltsin",
+                    "choice2": "John Rushkin",
+                    "choice3": "Pushkin",
+                    "choice4": "Ruskin Bond",
+                    "answer": 2
+                },
+
+                {
+                    "question": "Whose autobiography is 'My Life' ",
+                    "choice1": "Nelson Mandela ",
+                    "choice2": "Bill Clinton",
+                    "choice3": "Margaret Thatcher",
+                    "choice4": "J.M Lyngdoh",
+                    "answer": 2
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Who said it",
+            "id": "en3",
+            "Styles": [{
+                "Background": "https://wallpaperaccess.com/full/1209564.jpg",
+                "progressBarColor": "maroon",
+                "topTextColor": "white",
+                "optionTextColor": "#fff",
+                "optionBgColor": "maroon"
+            }],
+            "Questions": [{
+                    "question": "Who said, 'An eye for an eye only ends up making the whole world blind' ?",
+                    "choice1": "Mother Teresa",
+                    "choice2": "M.K. Gandhi",
+                    "choice3": "Thomas Edison",
+                    "choice4": "Larry Bird",
+                    "answer": 2
+                },
+                {
+                    "question": "You miss 100 percent of the shots you never take.",
+                    "choice1": "Tiger Woods",
+                    "choice2": "Michael Jordan",
+                    "choice3": "Lebron James",
+                    "choice4": "Wayne Gretzky",
+                    "answer": 4
+                },
+                {
+                    "question": "I have nothing to offer but blood, toil, tears and sweat.",
+                    "choice1": "Sitting Bull",
+                    "choice2": "Winston Churchill",
+                    "choice3": "Nikita Khrushchev",
+                    "choice4": "Charles de Gaulle",
+                    "answer": 2
+                },
+                {
+                    "question": " 'We didn't lose the game; we just ran out of time' ",
+                    "choice1": "Brett Favre",
+                    "choice2": "Michael Jordan",
+                    "choice3": "Vince Lombardi",
+                    "choice4": "Joe Frasier",
+                    "answer": 3
+                },
+                {
+                    "question": "Who said, 'Walking with a friend in the dark is better than walking alone in the light' ",
+                    "choice1": "Helen Keller",
+                    "choice2": "Helen Stiller",
+                    "choice3": "Heldi",
+                    "choice4": "None of the above",
+                    "answer": 1
+                },
+                {
+                    "question": "Who said, 'Victory belongs to the most persevering' ?",
+                    "choice1": "George Washington",
+                    "choice2": "General Lee",
+                    "choice3": "Moses Hadas",
+                    "choice4": " Napoleon",
+                    "answer": 4
+                },
+                {
+                    "question": "What poem begins with the line “April is the cruelest month”?",
+                    "choice1": "The Raven",
+                    "choice2": "Kublai Khan",
+                    "choice3": "To a Skylark",
+                    "choice4": "The Waste Land",
+                    "answer": 4
+                },
+                {
+                    "question": "From what play does the phrase 'Alas, poor Yorick' come?",
+                    "choice1": "The Women",
+                    "choice2": "The Taming of the Shrew",
+                    "choice3": "King Lear",
+                    "choice4": "Hamlet",
+                    "answer": 4
+                },
+                {
+                    "question": "“Don’t cry because it’s over, smile because it happened.”",
+                    "choice1": "Dr.spock",
+                    "choice2": "Dr.seuss",
+                    "choice3": "Dr.king",
+                    "choice4": "Mother Teresa",
+                    "answer": 2
+                },
+                {
+                    "question": "What book begins, 'How do people get to this clandestine Archipelago'?",
+                    "choice1": "1984",
+                    "choice2": "Treasure Island",
+                    "choice3": "The Gulag Archipelago",
+                    "choice4": "Islands in the Stream",
+                    "answer": 3
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Football",
+            "id": "sp1",
+            "Styles": [{
+                "Background": "https://wallpapercave.com/wp/wp3402735.jpg",
+                "progressBarColor": "linear-gradient(to right, #f2f7f5 42%, #ff3300 100%)",
+                "topTextColor": "#abdcff",
+                "optionTextColor": "Black",
+                "optionBgColor": "linear-gradient(to right, #f2f7f5 42%, #ff3300 100%)"
+            }],
+            "Questions": [{
+                    "question": "How many teams have won the World Cup since its inception in 1930?",
+                    "choice1": "8",
+                    "choice2": "7",
+                    "choice3": "5",
+                    "choice4": "4",
+                    "answer": 1
+                },
+                {
+                    "question": "Brazil has the most number of World Cup titles to its credit. How many times has it won the World Cup so far?",
+                    "choice1": "5",
+                    "choice2": "4",
+                    "choice3": "6",
+                    "choice4": "7",
+                    "answer": 1
+                },
+                {
+                    "question": "In which year was the football World Cup held for the first time?",
+                    "choice1": "1928",
+                    "choice2": "1930",
+                    "choice3": "1922",
+                    "choice4": "1932",
+                    "answer": 2
+                },
+                {
+                    "question": "Which country won the first football World Cup?",
+                    "choice1": "Brazil",
+                    "choice2": "Germany",
+                    "choice3": "Uruguay",
+                    "choice4": "Argentina",
+                    "answer": 3
+                },
+                {
+                    "question": "In which country is FIFA World Cup 2018 scheduled to be played?",
+                    "choice1": "Qatar",
+                    "choice2": "Russia",
+                    "choice3": "South Korea",
+                    "choice4": "France",
+                    "answer": 2
+                },
+                {
+                    "question": "Paul, a marine creature, which supposedly predicted the outcome of many matches in World Cup 2010 was a/an",
+                    "choice1": "Jelly fish",
+                    "choice2": "Walrus",
+                    "choice3": "Octopus",
+                    "choice4": "Seal",
+                    "answer": 3
+                },
+                {
+                    "question": "To which country does the famous player Ronaldo, who held the record for most number of World Cup goals, belong?",
+                    "choice1": "France",
+                    "choice2": "Spain",
+                    "choice3": "Portugal",
+                    "choice4": "Brazil",
+                    "answer": 4
+                },
+                {
+                    "question": "In which country are the headquarters of FIFA (International Federation of Association Football) located?",
+                    "choice1": "Switzerland",
+                    "choice2": "Brazil",
+                    "choice3": "France",
+                    "choice4": "Netherlands",
+                    "answer": 1
+                },
+                {
+                    "question": "Who has the record for scoring the most goals in World Cup history?",
+                    "choice1": "Ronaldo",
+                    "choice2": "Diego Maradona",
+                    "choice3": "Miroslav Klose",
+                    "choice4": "Lionel Messi",
+                    "answer": 3
+                },
+                {
+                    "question": " Who of the following won the World Cup both as the captain and manager of his country's team?",
+                    "choice1": "Diego Maradona",
+                    "choice2": "Mario Zagallo",
+                    "choice3": "Franz Beckenbauer",
+                    "choice4": "Jupp Derwall",
+                    "answer": 3
+                }
+            ]
+        },
+        {
+            "Subcategory": "Sports-Mashup",
+            "id": "sp2",
+            "Styles": [{
+                "Background": "linear-gradient(90deg, rgba(39,45,130,1) 0%, rgba(205,61,61,1) 100%)",
+                "progressBarColor": "linear-gradient(to top left, #ff6600 -7%, #3333ff 100%)",
+                "topTextColor": "black",
+                "optionTextColor": "#faa7b4",
+                "optionBgColor": "linear-gradient(to top left, #ff6600 -7%, #3333ff 100%)"
+            }],
+            "Questions": [{
+                    "question": "National Sports Day (NSD) is celebrated on which date in India?",
+                    "choice1": "August 28",
+                    "choice2": "August 29",
+                    "choice3": "August 26",
+                    "choice4": "August 27",
+                    "answer": 2
+                },
+                {
+                    "question": "The terms Volley, Smash, Service are related to which among the following sports?",
+                    "choice1": "Volleyball",
+                    "choice2": "Lawn Tennis",
+                    "choice3": "Table Tennis",
+                    "choice4": "Badminton",
+                    "answer": 2
+                },
+                {
+                    "question": "The Commonwealth Games started from which among the following countries?",
+                    "choice1": "England",
+                    "choice2": "Australia",
+                    "choice3": "Canada",
+                    "choice4": "India",
+                    "answer": 3
+                },
+                {
+                    "question": "Kookaburras is the nickname of Hockey Team of which of the following country ?",
+                    "choice1": "USA",
+                    "choice2": "Australia",
+                    "choice3": "China",
+                    "choice4": "India",
+                    "answer": 2
+                },
+                {
+                    "question": "Which among the following tournament is also known as World Team Championships for Women?",
+                    "choice1": "Thomas Cup",
+                    "choice2": "Uber cup",
+                    "choice3": "Helvetia Cup",
+                    "choice4": "Spanish Open Badminton",
+                    "answer": 2
+                },
+                {
+                    "question": "Who was the first Indian International Cricket Council President?",
+                    "choice1": "Sharad Pawar",
+                    "choice2": "Jag Mohan Dalmiya",
+                    "choice3": "Ray Mali",
+                    "choice4": "Gavaskar",
+                    "answer": 2
+                },
+                {
+                    "question": "The terms “Technical foul” and “Flagrant Foul” are most commonly associated with which of the following sports?",
+                    "choice1": "Table Tennis",
+                    "choice2": "Badminton",
+                    "choice3": "Basket Ball",
+                    "choice4": "Football",
+                    "answer": 3
+                },
+                {
+                    "question": "Who determines the non full-member teams which are to be allowed for participation in ICC Cricket World Cup?",
+                    "choice1": "International Cricket Council and World Cricket League",
+                    "choice2": "World Cricket League and BCCI",
+                    "choice3": "World Cricket League and ICC World Cup Qualifier",
+                    "choice4": "ICC and BCCI",
+                    "answer": 3
+                },
+                {
+                    "question": "Who is the CEO of ICC?",
+                    "choice1": "Shashank Manohar",
+                    "choice2": "David Richardson",
+                    "choice3": "Jagmohan Dalmiya",
+                    "choice4": "N. Sirinivasan",
+                    "answer": 2
+                },
+                {
+                    "question": "Which of the following nation was not a founding member of the Badminton World Federation?",
+                    "choice1": "Germany",
+                    "choice2": "France",
+                    "choice3": "England",
+                    "choice4": "Netherlands",
+                    "answer": 1
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Chemistry",
+            "id": "sc1",
+            "Styles": [{
+                "Background": "https://i.ytimg.com/vi/YDcGlzUgDBI/maxresdefault.jpg",
+                "progressBarColor": "linear-gradient(to right, #00ff99 0%, #000066 100%)",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "linear-gradient(to right, #00ff99 0%, #000066 100%)"
+            }],
+            "Questions": [{
+                    "question": "The purest form of iron is",
+                    "choice1": "Wrought iron",
+                    "choice2": "Steel",
+                    "choice3": "Pig iron",
+                    "choice4": "Nickel steel",
+                    "answer": 1
+                },
+                {
+                    "question": "Hydrogen bomb is based on the principle of  ",
+                    "choice1": "Nuclear fission",
+                    "choice2": "Nuclear fusion",
+                    "choice3": "Natural radioactivity",
+                    "choice4": "Artificial radioactivity",
+                    "answer": 2
+                },
+                {
+                    "question": "Which of the following is a non metal that remains liquid at room temperature  ?",
+                    "choice1": "Chlorine",
+                    "choice2": "Phosphorous",
+                    "choice3": "Bromine",
+                    "choice4": "Helium",
+                    "answer": 3
+                },
+                {
+                    "question": "Which one of the following is not a mixture",
+                    "choice1": "Mercury",
+                    "choice2": "Air",
+                    "choice3": "Milk",
+                    "choice4": "Cement",
+                    "answer": 1
+                },
+                {
+                    "question": "Among the given nutrients, milk is a poor source of",
+                    "choice1": "Calcium",
+                    "choice2": "Protein",
+                    "choice3": "Vitamin C",
+                    "choice4": "Carbohydrates",
+                    "answer": 3
+                },
+                {
+                    "question": "Brass gets discoloured in air because of the presence of which of the following gases in air  ?",
+                    "choice1": "Hydrogen sulphide",
+                    "choice2": "Oxygen",
+                    "choice3": "Nitrogen",
+                    "choice4": "Carbon dioxide",
+                    "answer": 1
+                },
+
+                {
+                    "question": "A ‘breath test’ used by traffic police to check drunken driving uses ____?",
+                    "choice1": "Turmeric on filter paper",
+                    "choice2": "Silica gel coated with silver nitrate",
+                    "choice3": "potassium permanganate-sulphuric acid",
+                    "choice4": "Potassium dichromatic-sulphuric acid",
+                    "answer": 4
+                },
+                {
+                    "question": "The enzyme that converts glucose to ethyl alcohol is ",
+                    "choice1": "Maltase",
+                    "choice2": "Zymase",
+                    "choice3": "Diastase",
+                    "choice4": "Invertase",
+                    "answer": 2
+                },
+                {
+                    "question": "Is C2 Paramagnetic or Diamagnetic?",
+                    "choice1": "Paramagnetic",
+                    "choice2": "Diamagnetic",
+                    "choice3": "Ferromagnetic",
+                    "choice4": "Can't be determined",
+                    "answer": 2
+                },
+                {
+                    "question": "A mixture of sand and naphthalene can be separated by",
+                    "choice1": "Fractional distillation",
+                    "choice2": "Sublimation",
+                    "choice3": "Chromatography",
+                    "choice4": "Any of them",
+                    "answer": 2
+                }
+            ]
+        },
+
+        {
+            "Subcategory": "Physics",
+            "id": "sc2",
+            "Styles": [{
+                "Background": "https://i.ytimg.com/vi/8gTUNpaBOP0/maxresdefault.jpg",
+                "progressBarColor": "linear-gradient(to bottom right, #009900 0%, #00ffff 100%)",
+                "topTextColor": "white",
+                "optionTextColor": "white",
+                "optionBgColor": "linear-gradient(to bottom right, #009900 0%, #00ffff 100%)"
+            }],
+            "Questions": [{
+                    "question": "The working principle of a washing machine is",
+                    "choice1": "Reverse osmosis",
+                    "choice2": "Diffusion",
+                    "choice3": "Centrifugation",
+                    "choice4": "Dialysis",
+                    "answer": 3
+                },
+                {
+                    "question": "Nuclear sizes are expressed in a unit named",
+                    "choice1": "Fermi",
+                    "choice2": "Angstrom",
+                    "choice3": "Newton",
+                    "choice4": "Tesla",
+                    "answer": 1
+                },
+                {
+                    "question": "The speed of light will be minimum while passing through",
+                    "choice1": "Water",
+                    "choice2": "Vaccum",
+                    "choice3": "Air",
+                    "choice4": "Glass",
+                    "answer": 4
+                },
+                {
+                    "question": "Which of the following is not a vector quantity?",
+                    "choice1": "Speed",
+                    "choice2": "Velocity",
+                    "choice3": "Torque",
+                    "choice4": "Displacement",
+                    "answer": 1
+                },
+                {
+                    "question": "The most suitable unit for expressing nuclear radius is",
+                    "choice1": "Micro",
+                    "choice2": "Fermi",
+                    "choice3": "Manometre",
+                    "choice4": "Angstrom",
+                    "answer": 2
+                },
+                {
+                    "question": "Which of the following is not the unit of time",
+                    "choice1": "Parallactic second",
+                    "choice2": "Micro Second",
+                    "choice3": "Leap year",
+                    "choice4": "Solar day",
+                    "answer": 1
+                },
+                {
+                    "question": "An air bubble in water will act like a ",
+                    "choice1": "Convex lens",
+                    "choice2": "Convex mirror",
+                    "choice3": "Concave lens",
+                    "choice4": "Concave mirror",
+                    "answer": 3
+                },
+                {
+                    "question": "Temperature can be expressed as derived quantity in terms of any of the following",
+                    "choice1": "Length and mass",
+                    "choice2": "Mass and time",
+                    "choice3": "Length, mass and time",
+                    "choice4": "None of the Above",
+                    "answer": 4
+                },
+                {
+                    "question": "A solid ball of metal has a spherical cavity inside it. When the ball is heated the volume of the cavity will",
+                    "choice1": "Increase",
+                    "choice2": "Decrease",
+                    "choice3": "Remain unaffected",
+                    "choice4": "Have its shape changed",
+                    "answer": 1
+                },
+                {
+                    "question": "It is more difficult to walk on ice than on a concrete road because ",
+                    "choice1": "There is very little friction between the ice and feet pressing it",
+                    "choice2": "Ice is soft when compared to concrete",
+                    "choice3": "There is more friction between the ice and feer",
+                    "choice4": "None of these",
+                    "answer": 1
+                }
+            ]
+        }
+    ]
+}
